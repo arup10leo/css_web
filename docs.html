@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordinary website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Festive&family=Merriweather:ital,wght@0,300;1,400&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <!--to end logo to a certain pixel and not spread all the way on huge screen-->
+            <h1 class="logo">WebDev</h1>
+            <nav>
+                <ul class="logo">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="features.html">Features</a>
+                    </li>
+
+                    <li>
+                        <a href="docs.html">Docs</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- header -->
+    <section class="docs-head">
+        <div class="container grid">
+            <div>
+                <h1>Docs</h1>
+                <p class="lead">
+                    Too much lorem ipsum may make you feel lazy. So typing something...
+                </p>
+
+            </div>
+            <img src="./docs.png" alt="">
+        </div>
+
+    </section>
+    <!-- docs main -->
+    <section class="docs-main">
+        <div class="container grid">
+            <div class="card bg-light">
+                <h3>Essentials</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#" class="text-primary">Introduction</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Installation</a></li>
+                    </ul>
+                </nav>
+                <h3>Deployment</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Setting up a container</a></li>
+                        <li><a href="#">Using CLI</a></li>
+                        <li><a href="#">Managing resources</a></li>
+                        <li><a href="#">Upgrade and downgrade</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card">
+                <h2>Introduction</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam repellendus iure nemo mollitia eveniet aperiam! Nam aperiam officiis alias, ratione reiciendis eligendi suscipit consequuntur possimus labore, eveniet voluptas, cupiditate
+                    asperiores?
+                </p>
+                <div class="alert alert-success">
+                    <i class="fas fa-info"> </i> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                </div>
+                <h3>Communication is neccesary</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam earum libero aperiam delectus laborum facere illum ex voluptatem recusandae vitae? Pariatur minima tempore delectus dignissimos numquam ratione veritatis mollitia voluptas.
+                </p>
+                <a href="#" class="btn btn-primary">Install CLI</a>
+                <h3>Requirements</h3>
+                <ul>
+                    <li>Windows 10, Mac OSX</li>
+                    <li>Node.js V12 or higher</li>
+                </ul>
+                <h3>Install</h3>
+                <p>Mac (Homebrew)</p>
+                <pre><code>$ brew install DevOps</code></pre>
+                <p>NPM</p>
+                <pre><code>$ npm install DevOps</code></pre>
+                <p>Yarn</p>
+                <pre><code>$ yarn install DevOps</code></pre>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer class="footer bg-dark">
+        <div class="conainer grid grid-3">
+            <div>
+                <h1>
+                    WebDev
+                </h1>
+                <p>Copyright &copy; <span>2020</span></p>
+            </div>
+            <nav>
+                <ul class="foot">
+                    <li>
+                        <a href="index.html">Home</a>
+
+                        <a href="features.html">Features</a>
+                        <a href="docs.html">Docs</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
